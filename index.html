@@ -19,22 +19,33 @@
     <!-- Specific Firebase products we want -->
     <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
-    <script type='text/javascript' src='config.js'></script>
+    <!-- <script type='text/javascript' src='./keys.js'></script> -->
     <script>
 
-
         // Your web app's Firebase configuration
-        var firebaseConfig = config;
+
+        var firebaseConfig = {
+            apiKey: "AIzaSyCxK46W-TvzyKukttdpQ6f5i72QLpO4cxk",
+            authDomain: "experiment-click.firebaseapp.com",
+            databaseURL: "https://experiment-click.firebaseio.com",
+            projectId: "experiment-click",
+            storageBucket: "experiment-click.appspot.com",
+            messagingSenderId: "664598001470",
+            appId: "1:664598001470:web:f3a9d7b6368b400fe81e6f",
+            measurementId: "G-927HTTL59W"
+        }
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
 
         firebase.database().ref().push({
             id: window.location.href,
-            time:  (new Date()).getTime() / 1000
+            time: (new Date()).getTime() / 1000
         });
 
-        window.location.href="https://docs.google.com/forms/d/1GPdqVL_xEW2J5YmMuE9ckH3r5l9UNxry961AsnnT8Yg/viewform?edit_requested=true";
-
+        setTimeout(function () {
+            console.log("redirect")
+            window.location.replace = "https://docs.google.com/forms/d/1GPdqVL_xEW2J5YmMuE9ckH3r5l9UNxry961AsnnT8Yg/viewform?edit_requested=true";
+        }, 1000);
     </script>
 
 </body>
