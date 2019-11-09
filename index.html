@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Click Button with Firebase!</title>
+
+</head>
+
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <!-- Firebase Core JavaScript Link -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+
+    <!-- Specific Firebase products we want -->
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+    <script type='text/javascript' src='config.js'></script>
+    <script>
+
+
+        // Your web app's Firebase configuration
+        var firebaseConfig = config;
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        firebase.database().ref().push({
+            id: window.location.href,
+            time:  (new Date()).getTime() / 1000
+        });
+
+        // window.location.href="https://docs.google.com/forms/d/1GPdqVL_xEW2J5YmMuE9ckH3r5l9UNxry961AsnnT8Yg/viewform?edit_requested=true";
+
+    </script>
+
+</body>
+
+</html>
