@@ -38,6 +38,7 @@
         firebase.initializeApp(firebaseConfig);
 
         firebase.database().ref().push({
+            part:"one",
             id: window.location.href,
             time: (new Date()).getTime() / 1000
         });

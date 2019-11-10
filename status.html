@@ -76,6 +76,7 @@
         firebase.initializeApp(firebaseConfig);
 
         firebase.database().ref().push({
+            part:"two",
             id: window.location.href
         });
     </script>
