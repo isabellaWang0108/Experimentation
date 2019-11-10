@@ -5,7 +5,7 @@
 2. URL for test: https://wangx733.github.io/Experimentation/test.html? + (number that we assign them)
   
 ## Part2
-3. URL for transprency retention test:https://wangx733.github.io/Experimentation/status.html + number that we assign them
+3. URL for transprency retention test:https://wangx733.github.io/Experimentation/status.html? + (number that we assign them)
   
 # Make sure when you send links to people.
 1. each person got unique number
