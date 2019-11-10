@@ -76,8 +76,7 @@
         firebase.initializeApp(firebaseConfig);
 
         firebase.database().ref().push({
-            id: window.location.href,
-            click: 1
+            id: window.location.href
         });
     </script>
 </body>
