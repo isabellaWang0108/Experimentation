@@ -12,4 +12,4 @@
 2. #in URL1 = #in URL2 for each one.
 For example, person 1 receive https://wangx733.github.io/Experimentation?1 for control, https://wangx733.github.io/Experimentation/test.html?1 for test. person 2 should receive https://wangx733.github.io/Experimentation?2 for control, https://wangx733.github.io/Experimentation/test.html?2 for test, etc.
 
-3. The number in part to do not need to be an extention for number in part 1, but they need to be unique still.
+3. The number in part 2 do not need to be an extention for number in part 1, but they need to be unique still.
