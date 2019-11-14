@@ -15,9 +15,9 @@ For example, person 1 receive https://wangx733.github.io/Experimentation?1 for c
 3. The number in part 2 do not need to be an extention for number in part 1, but they need to be unique still.
 
 ## email sample
-Hi <their name>,
+Hi (their name),
 
-I am a student at Cornell Tech and I am working with a couple of small/medium sized companies to help them recruit top talent. I came across your profile on <platform> and I am reaching out to you to see if you would be interested in any of the following opportunities. 
+I am a student at Cornell Tech and I am working with a couple of small/medium sized companies to help them recruit top talent. I came across your profile on Linkedin and I am reaching out to you to see if you would be interested in any of the following opportunities. 
 
 - Frontend Engineer 
 Employer notes: We are looking for a Front End Tech Lead to join our fast-paced team and take ownership of our front-end code.
@@ -30,7 +30,7 @@ click to apply
 Let me know if you have any questions. 
 
 Best,
-<your name>
+(your name)
 
 ## How to calculate result?
 Below will be the data sample
