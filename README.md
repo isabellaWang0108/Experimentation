@@ -18,6 +18,13 @@ The percentage of click determine the attractiveness of the transparency element
 
 
 
+
+
+
+
+
+
+
 # Experimentation Round 1
 
 ## Part 1
