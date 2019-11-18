@@ -1,9 +1,9 @@
 # Experimentation Round 2
 ## How to do it(by URLs)
-process: https://wangx733.github.io/Experimentation/process?+(number that we assign them)
-promotion path:https://wangx733.github.io/Experimentation/promotion?+(number that we assign them)
-Interview sample questions:https://wangx733.github.io/Experimentation/interview?+(number that we assign them)
-Control(Directly Apply):https://wangx733.github.io/Experimentation/control?+(number that we assign them)
+#### process: https://wangx733.github.io/Experimentation/process?+(number that we assign them)
+#### promotion path:https://wangx733.github.io/Experimentation/promotion?+(number that we assign them)
+#### Interview sample questions:https://wangx733.github.io/Experimentation/interview?+(number that we assign them)
+#### Control(Directly Apply):https://wangx733.github.io/Experimentation/control?+(number that we assign them)
 ## purpose
 To test upon the transparency elements to see which one matters. 
 
