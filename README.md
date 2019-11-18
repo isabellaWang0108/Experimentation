@@ -1,4 +1,4 @@
-# Experimentation
+# Experimentation Round 1
 
 ## Part 1
 1. URL for control: https://wangx733.github.io/Experimentation? + (number that we assign them)
@@ -7,7 +7,7 @@
 ## Part2
 3. URL for transprency retention test:https://wangx733.github.io/Experimentation/status.html? + (number that we assign them)
   
-# Make sure when you send links to people.
+## when we send links to people.
 1. each person got unique number
 2. #in URL1 = #in URL2 for each one.
 For example, person 1 receive https://wangx733.github.io/Experimentation?1 for control, https://wangx733.github.io/Experimentation/test.html?1 for test. person 2 should receive https://wangx733.github.io/Experimentation?2 for control, https://wangx733.github.io/Experimentation/test.html?2 for test, etc.
@@ -60,3 +60,18 @@ Below will be the data sample
 
 Group data with the same id, then pick the one with a smaller time.
 The percentage of test determine the attractiveness of the transparency element.
+
+## Result
+
+We sent out ~87 emails (13 to go)
+About Half of Emails went through
+Of these we got 14 Responses via clicks on the forms
+Of the clicks, no conclusive evidence
+Of the 14 Clicks, 7 people clicked the test link first, and 7 people clicked the normal link first
+so 50% each
+10 people clicked the test link overall
+10 people clicked the train link overall
+so the number of clicks, and percentage of which links were clicked first were identical for each link (the normal one, and then the test one where we incentivize transparency and 3 weeks)
+
+## Conclusion
+People do not care about the speed when searching for job.
