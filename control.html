@@ -38,7 +38,8 @@
         firebase.initializeApp(firebaseConfig);
 
         firebase.database().ref().push({
-            part:"one",
+            round:"two",
+            element:"control",
             id: window.location.href,
             time: Math.floor((new Date()).getTime() )
         });
