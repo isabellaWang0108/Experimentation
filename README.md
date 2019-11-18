@@ -1,9 +1,9 @@
 # Experimentation Round 2
 ## How to do it(by URLs)
-process: https://wangx733.github.io/Experimentation/process? + (number that we assign them)
-promotion path:https://wangx733.github.io/Experimentation/promotion? + (number that we assign them)
-Interview sample questions:https://wangx733.github.io/Experimentation/interview? + (number that we assign them)
-Control(Directly Apply):https://wangx733.github.io/Experimentation/control? + (number that we assign them)
+1. process: https://wangx733.github.io/Experimentation/process? + (number that we assign them)
+2. promotion path:https://wangx733.github.io/Experimentation/promotion? + (number that we assign them)
+3. Interview sample questions:https://wangx733.github.io/Experimentation/interview? + (number that we assign them)
+4. Control(Directly Apply):https://wangx733.github.io/Experimentation/control? + (number that we assign them)
 
 
 
