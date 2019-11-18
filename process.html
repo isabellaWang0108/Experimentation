@@ -21,7 +21,8 @@
         .blue {
             color: blue;
         }
-        .bold{
+
+        .bold {
             font-weight: 700;
         }
 
@@ -29,42 +30,45 @@
             margin: 6em 2em;
 
         }
-        #bar{
-            position:absolute;
-            top:0;
-            left:0;
-            width:100%;
-            height:1em;
-            background-color:blue;
-            color:white;
-            padding:.5em 1em;
-            font-size:36px;
-            font-weight:400;
+
+        #bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1em;
+            background-color: blue;
+            color: white;
+            padding: .5em 1em;
+            font-size: 36px;
+            font-weight: 400;
         }
-        p{
-            margin-left:2em;
+
+        p {
+            margin-left: 2em;
         }
     </style>
 </head>
 
 <body>
-<div id="bar"> Your Status</div>
+    <div id="bar"> Your Status</div>
     <div id="box">
         <h3>Company: LeanData</h3>
         <h3>Title: Front-end Developer</h3>
         <p class="black"> LeanData, located in Sunnyvale, CA, USA, provides the leading Revenue Ops platform to manage
             all go-to-market motions to increase speed to revenue, improve the buyer experience, and better align sales
             and marketing ROI.</p>
-<br/>
+        <br />
         <h2 class="black">Recruitement Process</h2>
         <h4 class="black"> Application Submitted</h4>
-        <p class="blue bold"> 10/10 applicants (You are here)</p>
-        <h4 class="black">Resume Review</h4>
-        <p>1/10 reviewed by Project Manager</p>
-        <p>0/10 reviewed by Talent Aquisition</p>
-        <p>0/10 reviewed by Engineer Director</p>
+        <p class="blue bold"> 0/0 applicants</p>
         <h4 class="black"> Technical Challenge</h4>
         <p>0/0 candidates</p>
+        <h4 class="black">Resume Review</h4>
+        <p>0/0 reviewed by Project Manager</p>
+        <p>0/0 reviewed by Talent Aquisition</p>
+        <p>0/0 reviewed by Engineer Director</p>
+
         <h4 class="black">Phone Screening</h4>
         <p>0/0 candidates</p>
         <h4 class="black">On-site Interview</h4>
@@ -97,10 +101,10 @@
         firebase.initializeApp(firebaseConfig);
 
         firebase.database().ref().push({
-            round:"two",
-            element:"process",
+            round: "two",
+            element: "process",
             id: window.location.href,
-            time: Math.floor((new Date()).getTime() )
+            time: Math.floor((new Date()).getTime())
         });
     </script>
 </body>
