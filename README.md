@@ -5,10 +5,17 @@
 3. Interview sample questions:https://wangx733.github.io/Experimentation/interview? + (number that we assign them)
 4. Control(Directly Apply):https://wangx733.github.io/Experimentation/control? + (number that we assign them)
 
-
+## when we send links to people.
+1. each person got unique number
+2. #in URL1 = #in URL2 = #in URL3 = #in URL4 for each person.
 
 ## purpose
 To test upon the transparency elements to see which one matters. 
+
+## How to calculate result?
+Group data with the same id, then pick the one with a smaller time.
+The percentage of click determine the attractiveness of the transparency element.
+
 
 
 # Experimentation Round 1
@@ -72,7 +79,7 @@ Below will be the data sample
 }
 
 Group data with the same id, then pick the one with a smaller time.
-The percentage of test determine the attractiveness of the transparency element.
+The percentage of test determine the attractiveness of the speed element.
 
 ## Result
 
